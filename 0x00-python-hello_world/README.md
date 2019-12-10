@@ -1,4 +1,4 @@
-# The first project in Python covers:
+# First project in Python
 
 ## Learning Objectives
 
