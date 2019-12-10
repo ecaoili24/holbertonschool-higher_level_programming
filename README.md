@@ -1,4 +1,4 @@
-#The following project covers:
+# The following project covers:
 
 - Why Python programming is awesome (don’t forget to tweet today, with the hashtag
 #pythoniscool :))
