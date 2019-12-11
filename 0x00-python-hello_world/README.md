@@ -13,7 +13,7 @@
 - What are indexing and slicing in Python
 - What is the official Holberton Python coding style and how to check your code with PEP 8
 
-# Requirements
+## Requirements
 
 ## Python Scripts
 
