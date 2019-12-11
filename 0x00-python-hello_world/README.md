@@ -38,14 +38,14 @@
 
 ## Tasks
 
-- 0. Write a Shell script that runs a Python script
-- 1. Write a Shell script that runs Python code
-- 2. Using the function print, write a Python script that prints exactly the following phrase given.
-- 3. Print integer
-- 4. Print float
-- 5. Print string
-- 6. Combine two strings to print one whole string
-- 7. Cut up a str into parts and print them into separate categories
-- 8. Create a new string
-- 9. Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line
-- 10. Technical interview preparation question: Linked list cycle. Write a function in C that checks if a singly linked list has a cycle in it.
+0. Write a Shell script that runs a Python script
+1. Write a Shell script that runs Python code
+2. Using the function print, write a Python script that prints exactly the following phrase given.
+3. Print integer
+4. Print float
+5. Print string
+6. Combine two strings to print one whole string
+7. Cut up a str into parts and print them into separate categories
+8. Create a new string
+9. Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line
+10. Technical interview preparation question: Linked list cycle. Write a function in C that checks if a singly linked list has a cycle in it.
