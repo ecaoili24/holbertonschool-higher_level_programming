@@ -1,4 +1,4 @@
-# The Higher Level Programming Repository
+# Higher Level Programming
 
 The following repository covers prorgams written in Python for the Higher Level Programming curriculum at Holberton School.
 
