@@ -1,1 +1,1 @@
-# The Higher Level Programming Repository covers Python
+# The Higher Level Programming Repository Covers Python
