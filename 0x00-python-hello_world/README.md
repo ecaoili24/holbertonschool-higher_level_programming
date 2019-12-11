@@ -49,3 +49,6 @@
 8. Create a new string
 9. Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line
 10. Technical interview preparation question: Linked list cycle. Write a function in C that checks if a singly linked list has a cycle in it.
+11. Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line. Use the function write from the sys module.
+12. Write a script that compiles a Python script file.
+13. Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode in the project.
