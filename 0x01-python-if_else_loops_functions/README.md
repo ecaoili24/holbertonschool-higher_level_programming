@@ -1,6 +1,6 @@
 ## The following project covers:
 
-### Loops and Conditionals
+## Loops and Conditionals
 
 ## Learning Objectives
 
