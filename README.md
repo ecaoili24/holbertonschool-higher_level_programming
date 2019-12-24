@@ -11,3 +11,7 @@ The following repository covers programs written in Python for the Higher Level 
 | [0x02-python-import & module](https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x02-python-import_modules) | Python modules |
 | [0x03-python-Data Structures](https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x03-python-data_structures) | Lists and Tuples |
 | [0x04-python-more_data_structures](https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x04-python-more_data_structures) | Dictionaries and Sets |
+
+### Authors
+
+[Erika Caoili](erika.caoili@gmail.com)
