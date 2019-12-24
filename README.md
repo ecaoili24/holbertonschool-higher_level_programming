@@ -3,7 +3,7 @@
 
 The following repository covers programs written in Python for the Higher Level Programming curriculum at Holberton School. Holberton 
 
-## What sets Holberton students apart from any other University or Bootcamp
+## What Sets Holberton Students Apart From Any Other
 
 | Key Qualities | Why? |
 | --- | --- |
