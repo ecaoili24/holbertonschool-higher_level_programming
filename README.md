@@ -6,7 +6,8 @@ The following repository covers prorgams written in Python for the Higher Level 
 ## Projects
 | Project | Description |
 | --- | --- |
-| [https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world](0x00.Python-hello_world) |  An introduction to Python programming |
-| 0x01.Python-if_else_loops_functions | Loops and Conditionals, If and Else Statements |
-| 0x02.Python-import & module | Python modules |
-| 0x03.Python-Data Structures | Lists, Tuples |
+| [0x01-python-hello-world](https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world) | An introduction to Python programming |
+| [0x01-python-if_else_loops_functions](https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x01-python-if_else_loops_functions) | Loops and Conditionals, If and Else Statements |
+| [0x02-python-import & module](https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x02-python-import_modules) | Python modules |
+| [0x03-python-Data Structures](https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x03-python-data_structures) | Lists and Tuples |
+| [0x04-python-more_data_structures](https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x04-python-more_data_structures) | Dictionaries and Sets |
