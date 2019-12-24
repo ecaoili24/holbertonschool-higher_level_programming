@@ -6,7 +6,7 @@ The following repository covers prorgams written in Python for the Higher Level 
 ## Projects
 | Project | Description |
 | --- | --- |
-| [https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world] (0x00.Python-hello_world) |  An introduction to Python programming |
+| [https://github.com/ecaoili24/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world](0x00.Python-hello_world) |  An introduction to Python programming |
 | 0x01.Python-if_else_loops_functions | Loops and Conditionals, If and Else Statements |
 | 0x02.Python-import & module | Python modules |
 | 0x03.Python-Data Structures | Lists, Tuples |
