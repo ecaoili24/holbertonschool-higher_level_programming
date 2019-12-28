@@ -25,6 +25,6 @@ The following repository covers programs written in Python for the Higher Level 
 
 Erika Caoili
 
-Email: [erika.caoili@gmail.com](erika.caoili@gmail.com)
+[Email](erika.caoili@gmail.com)
 
-Follow me on twitter: [https://twitter.com/CaoiliErika](https://twitter.com/CaoiliErika)
+Follow me on [Twitter](https://twitter.com/CaoiliErika)
