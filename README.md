@@ -23,4 +23,8 @@ The following repository covers programs written in Python for the Higher Level 
 
 ### Author
 
-[Erika Caoili](erika.caoili@gmail.com)
+Erika Caoili
+
+Email: [erika.caoili@gmail.com](erika.caoili@gmail.com)
+
+Follow me on twitter: [https://twitter.com/CaoiliErika](https://twitter.com/CaoiliErika)
