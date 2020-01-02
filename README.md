@@ -2,7 +2,7 @@
 
 # Higher Level Programming in Python 
 
-The following repository covers programs written in Python for the Higher Level Programming curriculum at Holberton School. Holberton 
+The following repository covers programs written in Python for the Higher Level Programming curriculum at Holberton School.
 
 ## What Sets Holberton Students Apart
 
