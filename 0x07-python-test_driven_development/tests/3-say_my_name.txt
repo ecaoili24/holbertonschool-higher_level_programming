@@ -1,0 +1,51 @@
+==========================
+The ''say_my_name'' module
+==========================
+
+Using ''say_my_name''
+--------------------------
+
+Import file
+   >>> say_my_name  = __import__('3-say_my_name').say_my_name
+
+Test for Valid String:
+   >>> say_my_name("Bob", "Machine")
+   My name is Bob Machine
+
+Test for One Argument:
+    >>> say_my_name("Bob")
+    My name is Bob
+
+Test for Empty First Argument:
+    >>> say_my_name(, "Machine")
+    Traceback (most recent call last):
+    SyntaxError: invalid syntax
+
+Test for Empty String:
+   >>> say_my_name("", "")
+   My name is
+
+Test for Integer and String:
+    >>> say_my_name(4, "Machine")
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+Test for String and Integer:
+    >>> say_my_name("Bob", 101)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+Test for More than 2 Arguments:
+    >>> say_my_name("Bobby", "BOB", "Machine")
+    Traceback (most recent call last):
+    TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given
+
+Test for None as First Name:
+    >>> say_my_name(None, "Caoili")
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+Test for None as Last Name:
+    >>> say_my_name("Eka", None)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
