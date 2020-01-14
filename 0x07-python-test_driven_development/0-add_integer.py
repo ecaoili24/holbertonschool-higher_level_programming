@@ -7,7 +7,8 @@ This module contains the add_integer function
 
 def add_integer(a, b=98):
     """
-    Return sum of a and b.
+    Return sum of a and b. Prints an error
+    message if a and b are not int or floats
     """
     if type(a) == float:
         a = int(a)
