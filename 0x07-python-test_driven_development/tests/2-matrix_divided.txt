@@ -1,0 +1,83 @@
+===============================
+The ``2-matrix_divided`` module
+===============================
+
+Using ''matrix_divided''
+-------------------------------
+
+Import file
+       >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+Test for Correct list:
+    >>> matrix = [[1,2,3], [4,5,6]]
+    >>> matrix_divided(matrix, 3)
+    [[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+
+Test for Strings:
+    >>> matrix = [["Hello",2], [4,"World"]]
+    >>> matrix_divided(matrix, 3)
+    Traceback (most recent call last):
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Test for Mixed Integers and Floats:
+    >>> matrix = [[1.1,2.2,3], [4,5,6.3]]
+    >>> matrix_divided(matrix, 3)
+    [[0.37, 0.73, 1.0], [1.33, 1.67, 2.1]]
+
+Test for Different Size:
+    >>> matrix = [[2,3], [4,5,6]]
+    >>> matrix_divided(matrix, 2)
+    Traceback (most recent call last):
+    TypeError: Each row of the matrix must have the same size
+
+Test for Division by Zero:
+    >>> matrix = [[2, 4], [5, 5]]
+    >>> matrix_divided(matrix, 0)
+    Traceback (most recent call last):
+    ZeroDivisionError: division by zero
+
+Test for No Arguments passed:
+    >>> matrix = [[2, 4], [5, 5]]
+    >>> matrix_divided()
+    Traceback (most recent call last):
+    TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
+
+Test for No Matrix passed:
+    >>> matrix = [[2, 4], [5, 6]]
+    >>> matrix_divided(, 2)
+    Traceback (most recent call last):
+    SyntaxError: invalid syntax
+
+Test for None as Matrix:
+    >>> matrix = [[2, 4], [5, 5]]
+    >>> matrix_divided(None, 2)
+    Traceback (most recent call last):
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Test for None as Division:
+    >>> matrix = [[2, 4], [5, 5]]
+    >>> matrix_divided(matrix, None)
+    Traceback (most recent call last):
+    TypeError: div must be a number
+
+Test for No Division passed:
+    >>> matrix = [[2, 4], [5, 6]]
+    >>> matrix_divided(matrix,)
+    Traceback (most recent call last):
+    TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+Test for Empty Matrix:
+    >>> matrix = []
+    >>> matrix_divided(matrix, 4)
+    Traceback (most recent call last):
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Test for Division is Overflow:
+    >>> matrix = [[1, 2], [3,4]]
+    >>> matrix_divided(matrix, float('inf'))
+    [[0.0, 0.0], [0.0, 0.0]]
+
+Test for Division is a Long Number:
+    >>> matrix = [[1, 2], [3, 4]]
+    >>> matrix_divided(matrix, 9989654321)
+    [[0.0, 0.0], [0.0, 0.0]]
