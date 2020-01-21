@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-
 """
 This module contains the text_indentation function
 """
+
 
 def print_square(size):
     """
