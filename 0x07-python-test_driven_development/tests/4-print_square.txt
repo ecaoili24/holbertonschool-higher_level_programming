@@ -1,0 +1,51 @@
+===================================================
+he ``4-print_square.txt`` module
+===================================================
+
+Function that prints a square with the character #
+---------------------------------------------------
+
+Import Function:
+    >>> print_square = __import__('4-print_square').print_square
+
+Size = 4:
+    >>> print_square(4)
+    ####
+    ####
+    ####
+    ####
+
+Test Cases:
+
+Test case for Size = 0:
+    >>> print_square(0)
+
+Test case for Size is Float and < 0:
+    >>> print_square(-4.9)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+Test case for Size is Negative:
+    >>> print_square(-1)
+    Traceback (most recent call last):
+    ValueError: size must be >= 0
+
+Test case for NameError where Size = Size:
+    >>> print_square(size)
+    Traceback (most recent call last):
+    NameError: name 'size' is not defined
+
+Test Case for if the Size is a string:
+    >>> print_square("String")
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+Test case for More Than 1 Argument:
+    >>> print_square(1, 8)
+    Traceback (most recent call last):
+    TypeError: print_square() takes 1 positional argument but 2 were given
+
+Test case for No Arguments:
+    >>> print_square()
+    Traceback (most recent call last):
+    TypeError: print_square() missing 1 required positional argument: 'size'
