@@ -89,4 +89,4 @@ Test for NaN:
 Test for Boolean as Scond Arg:
      >>> bg.integer_validator("list", False)
      Traceback (most recent call last):
-     TypeError: list must be an integer
+     ValueError: list must be greater than 0
