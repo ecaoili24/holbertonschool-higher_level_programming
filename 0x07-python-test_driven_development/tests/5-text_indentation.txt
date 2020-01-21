@@ -1,0 +1,56 @@
+==================================
+The ``5-text_indentation`` module
+==================================
+
+Function that prints a text with 2 new lines after each of these characters: ., ? and :
+---------------------------------------------------------------------------------------
+
+Import the function:
+
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Test cases:
+
+Test for No Arguments:
+    >>> text_indentation()
+    Traceback (most recent call last):
+    TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+Test for Empty String:
+    >>> text_indentation("")
+
+Test for String with Special Characters:
+    >>> text = "Hello! How are you doing? What is your name? Pick one color: blue or orange?"
+    >>> text_indentation(text)
+    Hello! How are you doing?
+    <BLANKLINE>
+    What is your name?
+    <BLANKLINE>
+    Pick one color:
+    <BLANKLINE>
+    blue or orange?
+    <BLANKLINE>
+
+Test for Integer:
+    >>> text_indentation(12)
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
+Test for New Line:
+    >>> text_indentation("\n")
+    <BLANKLINE>
+
+Test for Text Without Quotes:
+    >>> text_indentation(Erika)
+    Traceback (most recent call last):
+    NameError: name 'Erika' is not defined
+
+Test for Ending with Not Special Character:
+    >>> text = "Good Morning!"
+    >>> text_indentation(text)
+    Good Morning!
+
+Test for Not a string:
+   >>> text_indentation(None)
+    Traceback (most recent call last):
+    TypeError: text must be a string
