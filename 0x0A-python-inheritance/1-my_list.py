@@ -4,8 +4,9 @@ Creates a class MyList that inherits from the list class.
 """
 
 """Class MyList inherits from list."""
+
+
 class MyList(list):
     def print_sorted(self):
-        newList = self[:]
-        newList.sort()
+        newList = sorted(self[:])
         print("{}".format(newList))
