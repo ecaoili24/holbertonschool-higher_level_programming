@@ -14,7 +14,7 @@ def number_of_lines(filename=""):
 
     count = 0
 
-    with open(filename,encoding='utf8') as the_file:
+    with open(filename, encoding="utf8") as the_file:
         for lin in the_file:
             count += 1
         return count
