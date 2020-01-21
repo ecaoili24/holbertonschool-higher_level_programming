@@ -14,58 +14,79 @@ Import the class:
 
 Test cases:
 
-String:
+Test for String as Second Arg:
     >>> bg.integer_validator("name", "Erika")
     Traceback (most recent call last):
     TypeError: name must be an integer
 
-Name error:
+Test for Name error:
     >>> bg.integer_validator("age", Eka)
     Traceback (most recent call last):
     NameError: name 'Eka' is not defined
 
-One argument:
+Test for One argument:
     >>> bg.integer_validator("name", )
     Traceback (most recent call last):
     TypeError: integer_validator() missing 1 required positional argument: 'value'
 
-None:
+Test for None:
     >>> bg.integer_validator("name", None)
     Traceback (most recent call last):
     TypeError: name must be an integer
 
-No parameter:
+Test for No parameter:
     >>> bg.integer_validator()
     Traceback (most recent call last):
     TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
-Name as empty string:
+Test for Name as empty string:
     >>> bg.integer_validator("", 24)
 
-Name as int:
+Test for Name as int:
      >>> bg.integer_validator(12, 34)
+     TypeError:  must be an integer
 
-Float:
+Test for List as Second Arg:
+     >>> bg.integer_validator("list", [2, 4, 6])
+     Traceback (most recent call last):
+     TypeError: list must be an integer
+
+Test for Float:
     >>> bg.integer_validator("age", 32.0)
     Traceback (most recent call last):
     TypeError: age must be an integer
 
-Zero:
+Test for Tuple:
+     >>> bg.integer_validator("my_int", (1,))
+     Traceback (most recent call last):
+     TypeError: my_int must be an integer
+
+Test for set
+     >>> bg.integer_validator("my_int", {1, 2})
+     Traceback (most recent call last):
+     TypeError: my_int must be an integer
+
+Test for Zero:
    >>> bg.integer_validator("age", 0)
    Traceback (most recent call last):
    ValueError: age must be greater than 0
 
-Area:
+Test for Area:
     >>> bg.area()
     Traceback (most recent call last):
     Exception: area() is not implemented
 
-Infinity:
+Test for Infinity:
     >>> bg.integer_validator("age", float("inf"))
     Traceback (most recent call last):
     TypeError: age must be an integer
 
-NaN:
+Test for NaN:
     >>> bg.integer_validator("age", float("nan"))
     Traceback (most recent call last):
     TypeError: age must be an integer
+
+Test for Boolean as Scond Arg:
+     >>> bg.integer_validator("list", False)
+     Traceback (most recent call last):
+     TypeError: list must be an integer
