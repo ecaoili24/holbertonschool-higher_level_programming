@@ -5,7 +5,10 @@ Finds an object if it's exactly an instance of a class.
 
 
 def is_same_class(obj, a_class):
-    return True if isinstance(obj, a_class) else False
+    if isinstance(obj, a_class):
+        return True
+    return False
+
     """Function to determine if obj is an instance of a_class.
     Args:
         - obj: object to look at
