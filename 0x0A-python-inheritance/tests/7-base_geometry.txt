@@ -42,10 +42,6 @@ Test for No parameter:
 Test for Name as empty string:
     >>> bg.integer_validator("", 24)
 
-Test for Name as int:
-     >>> bg.integer_validator(12, 34)
-     TypeError:  must be an integer
-
 Test for List as Second Arg:
      >>> bg.integer_validator("list", [2, 4, 6])
      Traceback (most recent call last):
