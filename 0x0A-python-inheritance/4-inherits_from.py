@@ -5,7 +5,7 @@ Finds an object if it's an instance of a class that is inherited
 
 
 def inherits_from(obj, a_class):
-    return isinstance(obj, a_class) and not isinstance(obj, a_class)
+    return isinstance(obj, a_class) and type(obj) is not a_class
 
     """Evaluates if an obj is an instance of a class that's
     inherited from a_class.
