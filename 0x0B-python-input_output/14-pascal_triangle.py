@@ -20,6 +20,11 @@ def pascal_triangle(n):
     return pascal_triangle
 
 
+    if n <= 0:
+        return []
+    """Returns an empty list if n <= 0"""
+
+
 def factorial(num):
     factorial = 1
     for x in range(1, num + 1):
