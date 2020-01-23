@@ -19,7 +19,6 @@ def pascal_triangle(n):
         pascal_triangle.append(row)
     return pascal_triangle
 
-
     if n <= 0:
         return []
     """Returns an empty list if n <= 0"""
