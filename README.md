@@ -1,10 +1,12 @@
 ![Holberton Logo](https://i.ibb.co/nMtRXQR/Holberton.png)
 
-# Higher Level Programming in Python 
+# Higher Level Programming in Python
 
 The following repository covers programs written in Python for the Higher Level Programming curriculum at Holberton School.
 
 ## What Sets Holberton Students Apart
+
+At Holberton, students learn by doing and we collaborate with one another to learn computer science concepts and programming. 
 
 | Key Qualities | Why? |
 | --- | --- |
