@@ -12,7 +12,7 @@ from sqlalchemy import create_engine
 
 if __name__ == "__main__":
 
-    eng = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
+    eng = create_engine('mysql+mysqldb://' + '{}:{}@localhost/{}'
                         .format(sys.argv[1], sys.argv[2], sys.argv[3]),
                         pool_pre_ping=True)
 
@@ -20,11 +20,9 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=eng)
 
     session = Session()
-
-    session_q =  session.query(State, City).filter(
-        State.id == City.state_id).order_by(City.id).all():
-
-    for state, city in session_q:
-        print('{}. ({}) {}'.format(states.name, cities.id, cities.name))
+    for states, cities in session.query(
+            State, City).filter(
+            State.id == City.state_id).order_by(City.id).all():
+        print('{}: ({}) {}'.format(states.name, cities.id, cities.name))
 
     session.close()
