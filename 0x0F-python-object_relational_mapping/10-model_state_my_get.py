@@ -21,8 +21,8 @@ if __name__ == "__main__":
 
     session = Session()
 
+    flag = 0
     for state in session.query(State).order_by(State.id).all():
-        flag = 0
         if state.name == sys.argv[4]:
             print("{}".format(state.id))
             flag = 1
