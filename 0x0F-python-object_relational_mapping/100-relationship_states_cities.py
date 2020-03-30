@@ -8,7 +8,7 @@ import sys
 from relationship_state import Base, State
 from relationship_city import City
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import Session
 from sqlalchemy.schema import Table
 
 if __name__ == "__main__":
@@ -18,13 +18,12 @@ if __name__ == "__main__":
                         pool_pre_ping=True)
 
     Base.metadata.create_all(eng)
-    Session = sessionmaker(bind=eng)
 
-    session = Session()
+    session = Session(eng)
 
     NEW_city = City(name='San Francisco')
     NEW = State(name='California')
-    NEW.cities.append(NEW_city)
+    new.cities.append(NEW_city)
     session.add_all([NEW, NEW_city])
 
     session.commit()
