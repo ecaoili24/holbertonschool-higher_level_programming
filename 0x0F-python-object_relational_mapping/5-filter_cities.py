@@ -19,6 +19,6 @@ if __name__ == "__main__":
 
     query_rows = current.fetchall()
     for row in query_rows:
-        print(', '.join(city[0] for city in rows))
+        print(", ".join(city[0] for city in query_rows))
     current.close()
     connect.close()
