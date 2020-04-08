@@ -19,7 +19,7 @@ def find_peak_recursive(arr, len_arr):
     """
     Finds the peak recursively
     """
-    return recursion_peak(arr, 0, (len_arr - 1), len_arr)
+    return recursion_peak(arr, 0, len_arr - 1, len_arr)
 
 
 def recursion_peak(arr, low, high, len_arr):
@@ -36,5 +36,4 @@ def recursion_peak(arr, low, high, len_arr):
         return recursion_peak(arr, low, (mid - 1), len_arr)
 
     else:
-        return recursion_peak(arr, (mid + 1), high, len_arr)
-
+        return recursion_peak(arr, high, (mid + 1), len_arr)
