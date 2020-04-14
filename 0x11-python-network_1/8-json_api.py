@@ -9,16 +9,14 @@ from sys import argv
 
 
 if __name__ == "__main__":
-    dic = {'q': ""}
+    q = sys.argv[1] if len(sys.argv) > 1 else ''
+    req = requests.post('http://0.0.0.0:5000/search_user', data={'q': q})
 
-    if len(argv) > 1:
-        dic['q'] = argv[1]
-    r = requests.post('http://0.0.0.0:5000/search_user', dic)
-
-    if 'json' not in r.headers.get('content-type'):
-        print("Not a valid JSON")
-    else:
-        if r.json():
-            print('[{}] {}'.format(r.json().get('id'), r.json().get('name')))
+    try:
+        val = req.json()
+        if val == {}:
+            print("No Result")
         else:
-            print("No result")
+            print("[{}] {}".format(val.get("id"), val.get("name")))
+    except ValueError:
+        print("Not a valid JSON")
