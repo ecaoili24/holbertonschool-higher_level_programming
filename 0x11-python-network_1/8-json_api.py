@@ -5,7 +5,7 @@ to http://0.0.0.0:5000/search_user with the letter as a parameter
 """
 
 import requests
-from sys import argv
+import sys
 
 
 if __name__ == "__main__":
