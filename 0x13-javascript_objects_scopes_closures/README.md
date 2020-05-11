@@ -1,6 +1,6 @@
 ## Javascript - Objects, Scopes and Closures
 
-## Learnign Objectives
+## Learning Objectives
 
 - How to create an object in Javascript
 - What this means
