@@ -14,6 +14,6 @@
 
 - Allowed editors: vi, vim, emacs
 - All files will be interpreted on Ubuntu 14.04 LTS using node (version 10.14.x)
-- Your code should be semistandard compliant. Rules of Standard + semicolons on top. Also as reference: AirBnB style
+- Your code should be semistandard compliant. Rules of Standard + semicolons on top. Also as reference: [AirBnB style](https://github.com/airbnb/javascript)
 - The length of your files will be tested using wc
 - You are not allowed to use var
