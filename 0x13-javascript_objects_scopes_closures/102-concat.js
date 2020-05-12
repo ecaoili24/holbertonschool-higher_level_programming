@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// concats two files
+// Script that concats two files
 if (process.argv.length !== 5) {
   console.error('Incorrect num of arguments');
 } else {
