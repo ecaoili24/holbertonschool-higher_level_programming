@@ -1,4 +1,6 @@
-![Holberton Logo](https://i.ibb.co/nMtRXQR/Holberton.png)
+<p align="center">
+<img src="https://i.ibb.co/nMtRXQR/Holberton.png">
+</p>
 
 # Higher Level Programming in Python
 
